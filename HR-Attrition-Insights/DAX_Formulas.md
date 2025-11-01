@@ -1,27 +1,3 @@
-# 💼 HR Analytics Dashboard – Employee Attrition & Insights
-
-This Power BI project analyzes workforce data to uncover **employee attrition trends**, **demographics**, and **key HR insights**.  
-It helps organizations identify **who is leaving, why they are leaving, and what actions** can improve retention.
-
----
-
-## 📊 Project Overview
-
-**Goal:**  
-To build an interactive HR dashboard that visualizes attrition, performance, and engagement metrics for data-driven HR decisions.
-
-**Dataset:**  
-IBM HR Analytics Employee Attrition & Performance  
-File: `WA_Fn-UseC_-HR-Employee-Attrition.csv` (~1,470 rows)
-
-**Tools Used:**
-- Microsoft **Excel** – Data cleaning and preprocessing  
-- **Power BI Desktop** – Dashboard design and visualizations  
-- **DAX (Data Analysis Expressions)** – KPI and metric calculations  
-- **Power Query** – Data transformation
-
----
-
 ## ⚙️ Essential DAX Measures – HR Attrition & Employee Insights Dashboard
 
 This Power BI dashboard uses a set of well-structured **DAX measures** to calculate HR KPIs, analyze workforce patterns, and uncover attrition insights.  
@@ -141,6 +117,7 @@ They allow you to explore **attrition trends**, **satisfaction drivers**, and **
 ---
 
 ### 🧱 Tools & Technologies Used
+
 - **Power BI Desktop** – Dashboard design & interactivity  
 - **Excel** – HR data cleaning and preparation  
 - **DAX (Data Analysis Expressions)** – Metrics, KPIs, and scenario analysis  
