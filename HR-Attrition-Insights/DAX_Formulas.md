@@ -65,25 +65,7 @@ Below are all **important DAX formulas**, organized by their purpose and busines
 
 ---
 
-### 📈 6. Scenario & Projection Metrics
 
-| 🧠 Measure Name | 💡 DAX Formula | 📊 Description |
-|-----------------|----------------|----------------|
-| **Attrition_Scenario Table** | ```DAX
-Attrition_Scenario = 
-DATATABLE(
-    "Scenario", STRING,
-    "Attrition Rate (%)", DOUBLE,
-    {
-        {"Before", 16.1},
-        {"After", 11.5}
-    }
-)
-``` | Custom table to simulate “Before vs After” HR improvements. |
-| **Attrition Rate Before** | `Attrition Rate Before = CALCULATE(MAX(Attrition_Scenario[Attrition Rate (%)]), FILTER(Attrition_Scenario, Attrition_Scenario[Scenario]="Before"))` | Extracts baseline attrition rate. |
-| **Attrition Rate After (Target)** | `Attrition Rate After = CALCULATE(MAX(Attrition_Scenario[Attrition Rate (%)]), FILTER(Attrition_Scenario, Attrition_Scenario[Scenario]="After"))` | Target rate after implementing HR actions. |
-
----
 
 ### 🧮 7. Supporting Calculations
 
